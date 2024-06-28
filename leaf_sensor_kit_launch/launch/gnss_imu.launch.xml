@@ -1,7 +1,8 @@
 <launch>
   <group>
     <push-ros-namespace namespace="camera"/>
-    <include file="$(find-pkg-share lucid_vision_driver)/launch/start.py">
+    <include file="$(find-pkg-share bluespace_ai_xsens_mti_driver)/launch/display.launch.py">
     </include>
   </group>
 </launch>
+
